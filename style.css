@@ -1,9 +1,10 @@
-.azeret-mono-normal {
-    font-family: "Azeret Mono", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-/* header section styles */
+.azeret-mono-normal {                                      
+
+    font-family: "Azeret Mono", serif;                                   
+    font-optical-sizing: auto;                                            
+    font-style: normal;                                               
+  }                                                      
+/* header section styles */                                        
 .header-beggining{
     display: flex;
     justify-content: space-between;
@@ -186,4 +187,67 @@ border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 box-sizing: border-box;
 padding: 32px 32px 32px 32px;
+}
+/* my current target section styles */
+.current-target{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    margin: 150px 150px 20px 150px; 
+}
+.ct-heading{
+    font-size: 50px;
+    line-height: 37px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.ct-description{
+    text-align: center;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+.ct-item{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    padding: 40px;
+    margin: 48px 0px 0px 0px;
+}
+.ct-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items: flex-start;
+    gap: 50px;
+}
+.cti-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.cti-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.cti-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.learn-more{
+    color: rgb(13, 19, 33);
+}
+/* footer section styles */
+.help-desk{
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    width:1100px;
+    height: 313px;
+    margin:20px 150px 200px 150px;
+    background-size:cover;
+    border-radius:16px ;
+}
+.help-desk-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
