@@ -241,7 +241,7 @@ padding: 32px 32px 32px 32px;
     background-position: center;
     width:1100px;
     height: 313px;
-    margin:20px 150px 200px 150px;
+    margin:20px 150px 40px 150px;
     background-size:cover;
     border-radius:16px ;
 }
@@ -266,10 +266,10 @@ padding: 32px 32px 32px 32px;
     text-align: center;
 }
 .help-desk-description{
-    color: rgb(255, 255, 255);
+    color: aqua;
     font-size: 16px;
     line-height:26px ;
-    font-weight: 100;
+    font-weight: 300;
     text-align: center;
 }
 .help-desk-feedback{
@@ -292,4 +292,16 @@ padding: 32px 32px 32px 32px;
     font-size: 16px;
     font-weight: 600;
     border-radius: 8px ;
+}
+.fe-img{
+    width: 36px;
+    height: 36px;
+}
+.footer-ending{
+    background-color: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
